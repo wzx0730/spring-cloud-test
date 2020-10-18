@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: HYSTRIX-CONSUMER
+server:
+  port: 8101
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaService7001.com:7001/eureka/
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.ip-address}:${spring.application.name}:${server.port}
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+
+feign:
+  hystrix:
+    enabled: true
+info:
+  app.name: wzx_ConsumerApp
+  company.name: www.wzx.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: MailService
+server:
+  port: 8002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaService7001.com:7001/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.ip-address}:${spring.application.name}:${server.port}
+
+info:
+  app.name: MailService
+  company.name: www.wzx.com
+  build.artifactId: MaliService8002
+  build.version: 1.0-SNAPSHOT

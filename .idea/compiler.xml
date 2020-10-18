@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Alibaba-config-client" />
+        <module name="Alibaba-provider-order-service" />
+        <module name="Alibabaproviderpayment9001" />
+        <module name="Alibabaproviderpayment9002" />
+        <module name="common" />
+        <module name="common_service" />
+        <module name="consumer_9001" />
+        <module name="eurekaServer_7001" />
+        <module name="hystrix_consumer" />
+        <module name="MailService_8001" />
+        <module name="MaliService8002" />
+        <module name="provider_hystrix_service" />
+        <module name="spring-security-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaService_7002" target="1.8" />
+      <module name="open_feign_consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

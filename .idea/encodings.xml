@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Alibaba-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Alibaba-provider-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Alibaba-provider-payment9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Alibaba-provider-payment9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MailService_8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MaliService8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaServer_7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaService_7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/open_feign_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider_hystrix_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-test" charset="UTF-8" />
+  </component>
+</project>
